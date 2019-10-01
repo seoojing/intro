@@ -860,7 +860,7 @@ var toggle = "off";
 		poom.style.display = "inline"
 		send.style.display = "inline"
 		bubui.style.display = "inline"
-		
+		self.setTimeout("lookDiv50()",2000);
 			}
 
 function lookDiv (){ 
@@ -1020,6 +1020,9 @@ function lookDiv48(){
 }
 function lookDiv49 (){ 
   document.getElementById("ho38").style.display="inline"; 
+}
+	function lookDiv50 (){ 
+   pop.play(); 
 }
 	send.onclick = function(){if (toggle == "off") {}
 	but.play();
